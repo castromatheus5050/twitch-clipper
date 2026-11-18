@@ -1,0 +1,31 @@
+TWITCH CLIPPER
+==============
+
+Guarda automaticamente clips das lives da Twitch quando o chat "explode".
+
+COMO USAR
+1. Abra o TwitchClipper.exe.
+   Se o Windows mostrar "O Windows protegeu o computador", clique em
+   "Mais informações" > "Executar mesmo assim" (o programa não é assinado).
+2. Escreva o nome do canal (ex.: gaules) e clique em Adicionar.
+   Pode adicionar vários canais.
+3. Escolha a pasta onde os clips vão ser guardados.
+4. Clique em Iniciar. Deixe o programa aberto.
+
+Cada clip fica em  <pasta>/<canal>/canal_data_hora_palavra.mp4
+(a "palavra" é a que mais apareceu no chat no momento do pico).
+O ficheiro clips_log.csv na pasta regista todos os clips.
+
+"Clip agora" guarda os últimos segundos do canal selecionado na hora.
+
+AJUSTES
+- Sensibilidade: arraste para "mais clips" se estiver a perder momentos,
+  ou para "menos clips" se estiver a gravar demasiado.
+- Mínimo de chatters: em chats pequenos, baixe para 0.3–0.5.
+- Esperar após o pico: segundos extra depois do pico, para apanhar a reação.
+  Ficam incluídos dentro da duração do clip.
+- Nos primeiros 60 segundos o programa só "aprende" o ritmo normal do chat.
+
+NOTAS
+- Cada canal consome a mesma internet que estar a ver a live.
+- Sem conta, a Twitch pode meter anúncios; esses trechos ficam de fora do clip.
